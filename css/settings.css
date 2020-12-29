@@ -1,0 +1,204 @@
+
+.main-section{
+    border:1px solid #4222D0;
+     width: 100%;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding-right: 0!important;
+    padding-left: 0!important;
+   
+    
+}
+body{
+	margin: 0px;
+    
+}
+
+.header-section{
+    border-bottom:1px solid #4222D0;
+    height: 70px;
+    padding: 10px;
+    margin-top: 10px;
+   
+}
+
+.header-left,h1{
+    
+    float: left;
+}
+.header-name{
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 200px;
+    
+}
+.header-right{
+    float: right;
+       margin-right: 10px ; 
+}
+
+.chat{
+  margin-right: 5px ; 
+   
+}
+.logout{
+background-color: transparent;
+border: 1px solid transparent;
+  
+}
+.left-section{
+    float: left;
+    padding-left: 0!important;
+    max-width: 60%!important;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #f3efef;
+}
+td{
+    padding-left: 10px;
+    border-right: 1px solid #e5e3e3;
+}
+tr{
+    border-bottom: 1px solid #e5e3e3;
+}
+input{
+    border: none;
+    outline: none;
+    width:100%;
+    display: inline-block;
+}
+
+.updatebtn{
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    color:#fff!important;
+    width: 20%;
+    background: linear-gradient(to left, #4222D0 0%, #A918AC 100%);
+    padding:5px 70px;
+    border:1px solid #4222D0;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius:50px!important;
+    margin-left: 210px;
+}
+
+.updatebtn:hover{
+     color: rgba(255, 255, 255, 0.81);
+   
+}
+
+
+
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #ffffff;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #000000;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+table {
+ 
+  width: 100%;
+}
+
+
+
+tr:nth-child(even) {
+  background-color: #fff;
+
+}
+tr:nth-child(odd) {
+  background-color: #fff;
+   
+}
+.right-section{
+    float: right;
+    max-width: 30%!important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.profile-pic{
+  border: 1px solid #A918AC;
+   height: 135px;
+    width: 135px;
+  margin-left: 20px;
+    
+}
+.right-section .pic,
+.right-section .pic:hover{
+    text-decoration: none;
+     color:#4222D0;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+ 
+}
+.right-section .pic:hover{
+color:darkblue;
+    transition-duration: 1s;
+}
+.footer {
+    color:#000;
+}
+.footer h3{
+    text-transform: capitalize;
+    font-size: 16px!important;
+}
+.footer a {
+    text-decoration: none;
+    color:#A918AC;
+     font-weight: 700;
+   
+}
+
+.footer a:hover{
+    color:#4222D0;
+   text-decoration: none;
+    transition-duration: 1s;
+}
+
+.footer{
+    margin-left: 45%;
+    margin-top: 20px;
+}
+@media only screen and (max-width:320px){
+    .main-section{
+        display: none;
+    }
+}
